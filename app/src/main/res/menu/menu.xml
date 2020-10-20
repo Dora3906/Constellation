@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/about"
+        android:title="关于"/>
+
+    <item
+        android:id="@+id/changeBackground"
+        android:title="换背景">
+
+        <menu>
+            <item
+                android:id="@+id/DKGRAY"
+                android:title="灰黑色"/>
+
+            <item
+                android:id="@+id/GRAY"
+                android:title="灰色"/>
+
+            <item
+                android:id="@+id/WHITE"
+                android:title="白色"/>
+
+            <item
+                android:id="@+id/IMG"
+                android:title="默认背景"/>
+
+            <item
+                android:id="@+id/RANDOM"
+                android:title="随机"/>
+        </menu>
+    </item>
+
+    <item
+    android:id="@+id/switchMusic"
+    android:title="开启/关闭音乐"/>
+
+    <item
+        android:id="@+id/faceSetting"
+        android:title="人脸识别设置"/>
+
+</menu>

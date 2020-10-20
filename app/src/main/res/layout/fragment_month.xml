@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:id="@+id/backgroundMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:id="@+id/ivConstellation"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/baiyang"/>
+
+           <TextView
+               android:id="@+id/constellation"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="10dp"
+               android:layout_gravity="center"
+               android:text="白羊座"
+               android:textColor="#00EEEE"
+               android:textSize="20sp" />
+       </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="2016年"
+            android:textColor="#00EEEE"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="综合运势:"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="未来一年将是白羊座历经艰辛终于寻得新的突破的一年。"
+            android:textColor="#80CBC4"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="财富运势:"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:id="@+id/tvMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="上半年收入还算稳定，但也不太会有意料之外的收入，需要花钱的地方倒是不少。"
+            android:textColor="#80CBC4"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="事业运势:"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:id="@+id/tvCareer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="十月之前，都相对还是白羊座的蛰伏期。年初，水星与木星分别在事业宫与工作宫逆行，会给你们的职场生涯带来一些麻烦。"
+            android:textColor="#80CBC4"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="爱情运势:"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:id="@+id/tvLove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="与事业运类似，今年的桃花运也主要集中在下半年爆发。"
+            android:textColor="#80CBC4"
+            android:textSize="15sp"
+            android:layout_marginStart="20dp" />
+
+
+    </LinearLayout>
+</ScrollView>
